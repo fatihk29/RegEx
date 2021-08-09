@@ -10,6 +10,22 @@
 
 <body>
   <Script>
+    let msg1 = "ThiS casE seNSiTivE";
+    let pos = msg1.search('Case');
+    console.log(msg1.search('Case'));
+    console.log(msg1.search('casE'));
+
+    // A bit RegEx
+    console.log(msg1.search(/case/i))
+
+    // i flag case sensitive
+    let msg2 = "ThiS case seNSiTivE casE";
+    let ptrn = RegExp("Case", 'i');
+    let pos2 = msg2.search(ptrn);
+    console.log('pos2', pos2)
+
+    // g flag global match
+    console.log(msg2.match(/case/ig))
 
   </Script>
 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let str = 'I w\nonder why its windy WIN';
+    let ptrn = /w.n/gi;
+    // The '.' searches all characters except for the new line
+    // 'g' global
+    // 'i' case insensitive
+    console.log(str.match(ptrn));
+
+    /**/
+    let str2 = 'this is what that is ';
+    let ptrn2 = /.h\w+/g;
+    // . => any character
+    // h => second character
+    // \w+ => rest of the letters
+    //
+    console.log(str2.match(ptrn2));
+
+  </script>
+
+</body>
+
+</html>
