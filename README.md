@@ -11,11 +11,12 @@ Useful concept in all programming languages finding and replacing string values 
 basic regex pattern
 /pattern/
 
-i => performs case-insensitive search
-g => performs global match
+- i => performs case-insensitive search
+- g => performs global match
 
 ## Section2
 
 #### 03Character Classes
 
-'.' represents any character in a search pattern except a new line that is '\n'
+- '.' represents any character in a search pattern except a new line that is '\n'
+-

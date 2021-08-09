@@ -10,6 +10,8 @@
 
 <body>
   <script>
+    //Character Classes
+
     let str = 'I w\nonder why its windy WIN';
     let ptrn = /w.n/gi;
     // The '.' searches all characters except for the new line
@@ -23,8 +25,22 @@
     // . => any character
     // h => second character
     // \w+ => rest of the letters
-    //
     console.log(str2.match(ptrn2));
+
+    // The '\d' searches for digits in the strings
+    let str3 = 'I know HTML5, CSS3, React18, RN0.65';
+    let ptrn3 = /\d/g;
+    console.log(str3.match(ptrn3))
+
+    // The '\D' is used to search the non-digit values
+    let ptrn3_2 = /\D/g;
+    console.log(str.match(ptrn));
+
+    // \w searches word characters
+    let str4 = 'Yes! I do know & 10 times I_say';
+    let ptrn4 = /\w/g;
+
+    console.log(str4.match(ptrn));
 
   </script>
 
