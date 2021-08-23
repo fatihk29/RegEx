@@ -13,7 +13,7 @@
     <script>
         let str01 = 'only letters in the string';
         let str02 = 'Meet Joe Black 01'
-        let allLettersPattern = /^[A-Z a-z]+$/;
+        let allLettersPattern = /^[A-Za-z\s]+$/;
 
         console.log(allLettersPattern.test(str01)); // true
         console.log(allLettersPattern.test(str02)); // false

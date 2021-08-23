@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--  -->
+    <script>
+        let str01 = 'Wanted Meet Joe Black'; // 7 vowel  + 11 consonant
+        let vowelPattern = /[aeiou]/gi;
+        let consonantPattern = /[^aeiou\s]/gi;
+
+        console.log(str01.match(vowelPattern).length);
+        console.log(str01.match(consonantPattern).length);
+    </script>
+
+</body>
+
+</html>

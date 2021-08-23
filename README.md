@@ -11,8 +11,8 @@ Useful concept in all programming languages finding and replacing string values 
 basic regex pattern
 /pattern/
 
-- i => performs case-insensitive search
-- g => performs global match
+- i : performs case-insensitive search
+- g : performs global match
 
 ## Section2
 
@@ -42,4 +42,4 @@ $ : To check till the end of string without
 
 ##### 28
 
-\s : spaces
+\s : to ignore spaces
