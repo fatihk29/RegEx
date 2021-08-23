@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Validate that a string should begin with a digit -->
+    <script>
+        let str01 = '06 Ankara';
+        let str02 = 'New Ankara';
+
+        let digitPattern1 = /^[0-9]/;
+        let digitPattern2 = /^\d/;
+
+        console.log(digitPattern1.test(str01));
+        console.log(digitPattern1.test(str02));
+
+
+
+    </script>
+
+</body>
+
+</html>

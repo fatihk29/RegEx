@@ -20,3 +20,13 @@ basic regex pattern
 
 - '.' represents any character in a search pattern except a new line that is '\n'
 -
+
+## Section9
+
+#### Exercises
+
+^ : (caret) to check the begining of the string
+
+[0-9] : Range to check digit
+
+\d : Character class to check digits
