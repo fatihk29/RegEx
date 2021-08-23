@@ -39,3 +39,7 @@ basic regex pattern
 $ : To check till the end of string without
 '+' : To find at least 1 or more matches for the range given
 [0-9] : Range
+
+##### 28
+
+\s : spaces
