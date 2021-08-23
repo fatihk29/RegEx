@@ -11,6 +11,12 @@
 <body>
     <!--  -->
     <script>
+        let email = 'example@gmail.com';
+        let email2 = 'example@gmail.com.info';
+
+        let emailPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
+        console.log(emailPattern.test(email));
+        console.log(emailPattern.test(email2));
 
 
     </script>
