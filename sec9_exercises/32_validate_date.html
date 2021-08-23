@@ -9,9 +9,19 @@
 </head>
 
 <body>
-    <!--    -->
+    <!-- Validate date format mm/dd/yyyy  -->
     <script>
+        let str01 = '02/03/2020';
+        let str02 = '02-03-2020';
 
+        let datePattern = /^\d{1,2}\/\d{1,2}\/\d{4}$/g;
+        // '\/' for forward slash
+
+        let datePattern2 = /^\d{1,2}[\-]\d{1,2}[\-]\d{4}$/g;
+
+
+        console.log(datePattern.test(str01));
+        console.log(datePattern2.test(str02));
     </script>
 
 </body>

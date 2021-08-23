@@ -43,3 +43,8 @@ $ : To check till the end of string without
 ##### 28
 
 \s : to ignore spaces
+
+##### 32
+
+\d{1, 2} : For 1 or 2 digits
+\d{4} : For 4 digits
