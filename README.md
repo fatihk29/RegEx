@@ -21,6 +21,14 @@ basic regex pattern
 - '.' represents any character in a search pattern except a new line that is '\n'
 -
 
+## Section3
+
+#### 12 Boundary Assertions
+
+Anchors
+^ : The begining of string is
+$ : The end of string is
+
 ## Section9
 
 #### Exercises

@@ -10,11 +10,15 @@
 
 <body>
     <script>
-        let str = 'This is issss an example string';
-        let sPattern = /is+/g;
+        let str01 = 'Example string';
+        let pattern = /^Ex/;
 
-        console.log(str.match(sPattern));
+        console.log(pattern.test(str01));
 
+        let str02 = 'Example string bye bye';
+        let pattern2 = /bye$/;
+
+        console.log(pattern2.test(str02));
     </script>
 
 </body>
